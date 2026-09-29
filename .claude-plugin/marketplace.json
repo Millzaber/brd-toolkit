@@ -1,6 +1,6 @@
 {
-  "name": "brd-toolkit-private",
-  "description": "Private BRD skills for the Pojjaman team",
+  "name": "brd-toolkit",
+  "description": "Thai Mini BRD skills for Codex and Claude Code",
   "owner": {
     "name": "Pojjaman Team"
   },

@@ -1,7 +1,7 @@
 {
-  "name": "brd-toolkit-private",
+  "name": "brd-toolkit",
   "interface": {
-    "displayName": "BRD Toolkit Private"
+    "displayName": "BRD Toolkit"
   },
   "plugins": [
     {
