@@ -4,10 +4,14 @@ Private Git repository สำหรับแจกสกิลสร้าง Mi
 
 ## ติดตั้งแบบคำสั่งเดียวหลัง clone
 
-แทน `<PRIVATE_REPOSITORY_URL>` ด้วย SSH หรือ HTTPS URL ที่ผู้ใช้มีสิทธิ์เข้าถึง:
+```bash
+git clone git@github.com:Millzaber/brd-toolkit.git brd-toolkit-private && cd brd-toolkit-private && chmod +x install.sh plugins/brd-toolkit/install.sh && ./install.sh both
+```
+
+หากใช้ GitHub CLI หรือ HTTPS credential:
 
 ```bash
-git clone <PRIVATE_REPOSITORY_URL> brd-toolkit-private && cd brd-toolkit-private && chmod +x install.sh plugins/brd-toolkit/install.sh && ./install.sh both
+gh repo clone Millzaber/brd-toolkit brd-toolkit-private && cd brd-toolkit-private && chmod +x install.sh plugins/brd-toolkit/install.sh && ./install.sh both
 ```
 
 ใช้ `./install.sh codex` หรือ `./install.sh claude` เมื่อต้องการติดตั้งเฉพาะระบบ สคริปต์จะสำรองสกิลเดิมก่อนติดตั้งทับ
@@ -20,10 +24,8 @@ cd brd-toolkit-private && git pull --ff-only && ./install.sh both
 
 ## ติดตั้งเป็น Codex marketplace
 
-สำหรับ GitHub ใช้ชื่อ `<OWNER>/<REPOSITORY>`:
-
 ```bash
-codex plugin marketplace add <OWNER>/<REPOSITORY>
+codex plugin marketplace add Millzaber/brd-toolkit
 ```
 
 จากนั้นเปิด Plugins Directory ใน Codex เลือก marketplace `BRD Toolkit Private` และติดตั้ง `BRD Toolkit`
@@ -31,7 +33,7 @@ codex plugin marketplace add <OWNER>/<REPOSITORY>
 ## ติดตั้งเป็น Claude Code plugin
 
 ```bash
-claude plugin marketplace add <OWNER>/<REPOSITORY>
+claude plugin marketplace add Millzaber/brd-toolkit
 claude plugin install brd-toolkit@brd-toolkit-private
 ```
 
