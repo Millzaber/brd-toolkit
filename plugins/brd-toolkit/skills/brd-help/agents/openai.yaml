@@ -1,0 +1,4 @@
+interface:
+  display_name: "BRD Help"
+  short_description: "สอนใช้ BRD Create และข้อมูลที่ควรเตรียม"
+  default_prompt: "ใช้ $brd-help อธิบายวิธีเตรียมข้อมูลเพื่อสร้าง Mini BRD แบบสั้น"

@@ -1,0 +1,20 @@
+{
+  "name": "brd-toolkit-private",
+  "interface": {
+    "displayName": "BRD Toolkit Private"
+  },
+  "plugins": [
+    {
+      "name": "brd-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/brd-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

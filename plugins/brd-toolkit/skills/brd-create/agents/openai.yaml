@@ -1,0 +1,4 @@
+interface:
+  display_name: "BRD Create"
+  short_description: "สร้าง Mini BRD จากเรื่องเล่าหรือถามตามหัวข้อเดิม"
+  default_prompt: "ใช้ $brd-create ช่วยสร้างเอกสาร Mini BRD โดยให้ฉันเล่าความต้องการหรือกรอกตามหัวข้อ"

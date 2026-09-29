@@ -1,0 +1,8 @@
+{
+  "name": "brd-toolkit",
+  "version": "1.0.0",
+  "description": "สร้าง Mini BRD ภาษาไทยจากแบบฟอร์ม Pojjaman พร้อมคู่มือใช้งาน",
+  "author": {
+    "name": "Pojjaman Team"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "brd-toolkit-private",
+  "description": "Private BRD skills for the Pojjaman team",
+  "owner": {
+    "name": "Pojjaman Team"
+  },
+  "plugins": [
+    {
+      "name": "brd-toolkit",
+      "source": "./plugins/brd-toolkit",
+      "description": "สร้าง Mini BRD ภาษาไทย พร้อม BRD help"
+    }
+  ]
+}
